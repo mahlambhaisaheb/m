@@ -1,0 +1,279 @@
+
+
+
+
+
+
+.youtube-button {
+    background-color: rgb(155, 0, 0);
+    color: white;
+    height: 55px;
+    width: 140px;
+    border-radius: 10px;
+    border: solid; 
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.30s,
+    color 0.30s,
+    box-shadow 0.30s;
+    display: inline-block;
+     
+}
+.youtube-button:hover {
+background-color: white;
+color: rgb(155, 0, 0);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        
+}
+
+.youtube-button:active {
+background-color: rgb(155, 0, 0) ;
+
+}
+
+
+.contact {
+background-color: rgb(38, 139, 197);
+color: white;
+height: 55px;
+width: 140px;
+border-radius: 10px;
+border: solid;
+font-weight: bold;
+font-family: Arial;
+font-size: 15px;
+cursor: pointer;
+transition: background-color 0.30s,
+color 0.30s,
+box-shadow 0.30s;
+vertical-align: top;
+
+}
+
+.contact:hover {
+background-color: white;
+color: rgb(38, 139, 197);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+
+    .YouTube-link {
+        display: inline-block;
+    }
+
+    .Contact-link {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5px;
+    
+    }
+
+
+    .text-1  {
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 55px;
+        text-align: center;
+
+    }
+
+    .text-2 {
+        font-family: Ubuntu;
+        font-size: 31px;
+        
+    }
+
+    .text-3 {
+        font-family: Ubuntu;
+        font-size: 31px;
+    }
+
+    .stan {
+        font-weight: bold;
+    }
+    
+    .contact-1 {
+        background-color: aquamarine;
+        background-image: url(../Pictures/webb2.png);
+    }
+    
+    .img-1 {
+        width: 600px;
+        border-radius: 11px;
+        border: solid;
+        margin-left: 28%;
+        
+
+        
+        
+    }
+
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 140px 140px 140px 140px;
+    }
+
+    .info-1 {
+        font-family: Ubuntu;
+    }
+    
+    .info-2 {
+        font-family: Ubuntu;
+    } 
+    
+    .info-3 {
+        font-family: Ubuntu;
+    }
+    
+    .table-1 {
+        width: 45%;
+        margin-left: 1%;
+        display: inline-block; 
+        
+
+    }
+
+   
+    .grade {
+        background-color: rgb(53, 53, 53);
+        text-align: center;
+        height: 50px;
+        width: 140px;
+        border-radius: 10px;
+        border-color: transparent;
+        margin-top: 2%;
+        cursor: pointer;
+        font-family: Arial;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        display: inline-block;
+        margin-left: 545%;
+        transition: background-color 0.30s,
+        color 0.30s,
+        border-color 0.30s,
+        box-shadow 0.30s
+        ;
+    }
+    .grade:hover {
+        background-color: white;
+        color:rgb(53, 53, 53);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        border-color: rgb(53, 53, 53);
+        border: solid;
+        
+        
+    }
+    
+    .title-1 {
+        font-family: Ubuntu;
+        font-weight: bold;
+        text-align: center;
+        font-size: 200%;
+        
+    }
+
+    .grade-body {
+        background-color: white;
+        background-image: url(../Pictures/hex);
+    }
+
+    .marksheet {
+        margin-left: 14%;
+        margin-top: 5%;
+    }
+
+    table,th,td {
+        border: 1px solid;
+        border-color: black;
+        
+        
+    }
+
+   
+    
+    .mark {
+        margin-left: 14%;
+        margin-top: 10%;
+    }
+   
+    .infograde {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 14%;
+        margin-top: 5%;
+
+    }
+
+
+    .button {
+        margin-top: 1%;
+        border-color: rgb(128, 128, 128);
+        cursor: pointer;
+    }
+
+
+    .reference-link {
+        display: inline-block;
+        
+    }
+
+    .reference {
+        background-color: rgb(56, 110, 63);
+        text-align: center;
+        height: 50px;
+        width: 140px;
+        border-radius: 10px;
+        border-color: transparent;
+        margin-top: 2%;
+        cursor: pointer;
+        font-family: Arial;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        display: inline-block;
+        margin-left: 550%;
+        transition: background-color 0.30s,
+        color 0.30s,
+        border-color 0.30s,
+        box-shadow 0.30s
+        ;
+    }
+    .reference:hover {
+        background-color: white;
+        color:rgb(56, 110, 63);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        border-color: rgb(56, 110, 63);
+        border: solid;
+        
+        
+    }
+
+    .footer {
+        font-family: Rubik;
+        font-weight: bold;  
+        margin-top: 20%; 
+        background-color: rgb(100, 100, 100);
+        color: black;
+        font-size: 20px;
+        
+        
+        
+        
+        
+        
+      }
+      
+      .footer-para-2 {
+        float: left;
+        
+      }
+      
+      .footer-para {
+        float: right;
+      }
+
+    

@@ -1,0 +1,136 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #a5a5a5;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: #7e7d7d;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #494949;
+  }
+
+  .top-nav {
+    height: 60px;
+    background-color: rgb(100, 100, 100);
+    padding-top: 10px;
+
+}
+
+.top-nav a {
+    float: left;
+    line-height: 25px;
+    font-family: Raleway;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    
+}
+
+.top-nav a.intro {
+    font-weight: bold;
+    padding-left: 5px;
+    margin-left: 5px;
+    color: black;
+}
+
+
+.top-nav a.intro:hover {
+    text-decoration: underline;
+}
+
+.links {
+    float: right;
+}
+
+.links a {
+    color: black;
+    border-radius: 5px;
+    
+
+}
+
+.links a:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+.body {
+  background-color: rgb(93, 235, 216);
+  background-image: url(../Pictures/triangular.png);
+  margin: 0;
+  
+  
+  
+}
+
+.info {
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 21px;
+  display: block;
+  line-height: 30px;
+}
+
+.img-1 {
+  width: 600px;
+  border-radius: 11px;
+  border: solid;
+  margin-left: 28%;
+  
+
+  
+  
+}
+
+.footer {
+  font-family: Rubik;
+  font-weight: bold;  
+  margin-top: 20%; 
+  background-color: rgb(100, 100, 100);
+  color: black;
+  font-size: 20px;
+  
+  
+  
+  
+  
+  
+}
+
+.footer-para-2 {
+  float: left;
+  
+}
+
+.footer-para {
+  float: right;
+}
+
+.text { 
+  font-size: 55px;
+  font-family: Josefin Sans;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 25px;
+
+  }
+
+
+
+
+
+
+
+  

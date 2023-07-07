@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        Register
+    </title>
+
+    <link rel="stylesheet" href="Styles/stylestwo.css">
+    <link rel="stylesheet" href="Styles/Styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Raleway:wght@500&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="/Javascript/main.js"></script>
+
+
+</head>
+
+<body class="registerbody">
+
+    <div class="grid">
+
+        <div class="YouTube-link"> 
+ 
+         <a href="https://www.youtube.com/channel/UCCM7qI5rjOcLJRf8moXJmbw" target="_blank">
+             <button class="youtube-button">
+                YouTube Channel
+            </button>
+        </a>
+ 
+        </div>
+ 
+     
+ 
+        <div class="Contact-link">
+ 
+         <a href="contact.html" target="_blank">
+          <button class="contact">
+              Contact Me
+          </button>
+      </a>
+        </div>
+        </div>
+
+
+    <p class="registertext">Register</p>
+
+    <div class="registerform">
+
+    <form action="loginform.html" method="get" onsubmit="return regisValidation()">
+
+        
+        <label for="name" class="display">Name</label><br>
+        <input type="text" id="nameone" class="input"  onfocus="focusfunc(this.id)" onblur="blurfunc(this.id)"><br><br>
+
+        <label for="email" class="display">Email</label><br>
+        <input type="email" id="emailone" class="input" onfocus="focusfunc(this.id)" onblur="blurfunc(this.id)"><br><br>
+
+        <label for="number"  class="display">Phone No.</label><br>
+        <input type="text" id="numberone" class="input" onfocus="focusfunc(this.id)" onblur="blurfunc(this.id)"><br><br>
+        
+        <label for="gender" class="display">Gender:</label><br>
+
+        <label for="gender" class="display">Male</label>
+        <input type="checkbox" id="gender" class="gender"> 
+
+        <label for="gender" class="display">Female</label>
+        <input type="checkbox" id="gender" class="gender"> <br><br>
+
+       
+        <label for="password" class="display">Password</label><br>
+        <input type="password" id="passwordone" class="input"  onfocus="focusfunc(this.id)" onblur="blurfunc(this.id)"><br><br>
+
+        <label for="confirmpassword" class="display">Confirm Password</label><br>
+        <input type="password" id="confirmpasswordone" class="input" onfocus="focusfunc(this.id)" onblur="blurfunc(this.id)"><br>
+
+        <p id="warningregis" class="warning-regis"></p><br>
+
+
+        
+
+        <input type="submit" value="Sign Up"  class="loginbutton" id="signupbutton" 
+        onclick="characCheck()">
+
+   
+
+    </form>
+
+    </div>
+
+
+    <footer class="footer">
+
+        <p class="footer-para-2">&#169; Copyright Mahlam Bhaisaheb 2023</p>
+        <p class="footer-para">Website Made by: Mahlam Z. Bhaisaheb</p>
+        
+
+    </footer>
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,126 @@
+
+.logintext {
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 300%;
+    margin-top: 5%;
+}
+
+
+.loginform {
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+.input {
+    width: 35%;
+    height: 20px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 2px;
+
+}
+
+.display {
+    font-family: Raleway;
+    font-size: medium;
+}
+
+.loginbutton {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    height: 45px;
+    width: 140px;
+    border-radius: 10px;
+    border: solid; 
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 9%;
+    margin-top: 2%;
+    transition: background-color 0.30s,
+    color 0.30s,
+    box-shadow 0.30s;
+    display: inline-block;
+     
+}
+.loginbutton:hover {
+background-color: white;
+color:  rgb(85, 85, 85);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        
+}
+
+.loginbutton:active {
+background-color:  rgb(85, 85, 85) ;
+
+}
+
+.loginbody {
+    background-image: url(../Pictures/pattern.png);
+}
+
+.redirect {
+    font-family: Raleway;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+
+
+.registerform {
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+.registerbody {
+    background-image: url(../Pictures/pattern.png);
+}
+
+.registertext {
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 300%;
+    margin-top: 5%;
+}
+
+.list {
+    font-family: Raleway;
+
+}
+
+.reference-list {
+    margin-left: 45%;
+}
+
+.heading {
+    text-align: center;
+    font-family: Raleway;
+}
+
+.table {
+    margin-left: 35%;
+    margin-top: 10%
+}
+
+.reference-body {
+    background-image: url(../Pictures/pattern.png);
+}
+
+
+.warning {
+    font-size: medium;
+    color: red;
+    font-family: Raleway;
+}
+
+.warning-regis {
+    font-size: medium;
+    color: red;
+    font-family: Raleway;
+}
+
+
+
+
